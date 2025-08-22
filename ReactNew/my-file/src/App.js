@@ -1,14 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import Welcome from './welcome.jsx';
-import Student from './Student.js';
+// import Gretings from './Welcome';
+// import User from './Student';
+// import Person from './Classcomp'
+import Pc from './Propscomp';
+
 
 function App() {
   return (
     <div className="App">
-      <Student name="Prasanna" classText="React" grade="A" />
       <header className="App-header">
-        <Welcome />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -20,7 +21,11 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+          {/* <Gretings/> */}
+          {/* <User/> */}
+          {/* <Person/> */}
+          <Pc Name="Prassu" Age ="23"/>
+                  </a>
       </header>
     </div>
   );
