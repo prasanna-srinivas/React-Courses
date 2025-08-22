@@ -6,6 +6,7 @@ function Pc(props){
         <>
         <p>Name:{props.Name}</p>
         <p>Age :{props.Age}</p>
+        <p>schoolname:{props.Schoolname}</p>
 
         </>
     )

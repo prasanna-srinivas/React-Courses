@@ -24,7 +24,7 @@ function App() {
           {/* <Gretings/> */}
           {/* <User/> */}
           {/* <Person/> */}
-          <Pc Name="Prassu" Age ="23"/>
+          <Pc Name="Prassu" Age ="23" Schoolname = "bbx"/>
                   </a>
       </header>
     </div>
