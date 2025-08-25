@@ -3,14 +3,15 @@ import './App.css';
 // import Gretings from './Welcome';
 // import User from './Student';
 // import Person from './Classcomp'
-import Pc from './Propscomp';
+// import Pc from './Propscomp';
+import ReactHookForm from './components/FormValidations/ReactHookForm';
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      {/* <header className="App-header"> */}
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -20,13 +21,14 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React */}
           {/* <Gretings/> */}
           {/* <User/> */}
           {/* <Person/> */}
-          <Pc Name="Prassu" Age ="23" Schoolname = "bbx"/>
-                  </a>
-      </header>
+          {/* <Pc Name="Prassu" Age ="23" Schoolname = "bbx"/> */}
+          <ReactHookForm/>
+                  {/* </a>
+      </header> */}
     </div>
   );
 }
